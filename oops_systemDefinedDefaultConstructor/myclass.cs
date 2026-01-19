@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace oops_systemDefinedDefaultConstructor
 {
     internal class myclass
-    {
-        int a;
+    {  //instance members start here(variables+methods)=>we called as instance members
+        int a;//we called this variables as "instance variables"
         int b;
         //system defined default constructor compliler will assign some intial values to varaibles nased on datatype.
         //below is user defined default constructor created by programmer.here you can assign your customized values.
@@ -19,11 +19,11 @@ namespace oops_systemDefinedDefaultConstructor
             a = 10;
             b = 20;
         }
-        public void Display()
+        public void Display()//we called this method as  //instance method
         {
         
             Console.WriteLine("a is:" + a);
             Console.WriteLine("b is:" + b);
         }
-    }
+    }//instance members end here (variables+methods)=>we called as instance members
 }
